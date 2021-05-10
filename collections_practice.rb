@@ -162,7 +162,7 @@ end
 
 array = ["hand","feet", "knee", "table"] 
 
-p add_s(words)
+p add_s(array)
 
 
 
