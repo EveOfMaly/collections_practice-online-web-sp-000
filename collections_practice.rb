@@ -153,7 +153,7 @@ end
 
 
 def add_s(array)
-  words.each do |word|
+  array.each do |word|
     p word
   end
 end
@@ -162,7 +162,7 @@ end
 
 array = ["hand","feet", "knee", "table"] 
 
-p add_s(array)
+add_s(array)
 
 
 
