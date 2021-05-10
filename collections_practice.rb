@@ -153,8 +153,8 @@ end
 
 
 def add_s(array)
-  array.each do |word|
-    p word
+  array.each_with_index do |word, index|
+    if word
   end
 end
 
