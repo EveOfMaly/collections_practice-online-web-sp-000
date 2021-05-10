@@ -118,7 +118,7 @@ end
 # Question 7: #find_a
 # Build a method find_a that returns all the strings in the array passed to it that start_with? (hint) the letter "a". You'll want to use a high level iterator for this that finds, selects, or detects elements based on a condition.
 
-def finds_a(array_of_words)
+def find_a(array_of_words)
   array_of_words.select do |word|
     word[0] == "a"
   end
