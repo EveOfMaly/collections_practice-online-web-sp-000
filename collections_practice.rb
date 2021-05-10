@@ -166,7 +166,7 @@ end
 
 array = ["hand","feet", "knee", "table"] 
 
-add_s(array)
+p add_s(array)
 
 
 
