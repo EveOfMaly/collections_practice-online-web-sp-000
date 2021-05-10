@@ -132,13 +132,13 @@ end
 # Build a method sum_array that adds together all of the integers in the array and returns their sum.
 
 
-# def sum_array(array)
-#   sum = 0
-#   array.each do |num|
-#     sum += num
-#   end
-#   sum
-# end
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+  sum
+end
 
 def sum_array(array)
   array.sum
