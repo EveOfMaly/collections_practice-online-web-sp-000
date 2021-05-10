@@ -152,7 +152,7 @@ end
 # Build a method that adds an "s" to each word in the array except for the second element in the array ("feet" is already plural).
 
 
-def add_s(words)
+def add_s(array)
   words.each do |word|
     p word
   end
