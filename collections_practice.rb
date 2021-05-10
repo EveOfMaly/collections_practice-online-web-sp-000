@@ -156,6 +156,14 @@ end
 # Build a method that adds an "s" to each word in the array except for the second element in the array ("feet" is already plural).
 
 
+
+# Advanced: Iterators in Ruby are chainable, see if you can use .each_with_index in addition to .collect to solve this one in an elegant way. What happens if you write:
+
+# [1,2].each_with_index.collect{|element, index| }
+
+
+
+
 def add_s(array)
   array.each_with_index.collect do |word, index|
     if index == 1 
@@ -166,10 +174,4 @@ def add_s(array)
   end
 end
 
-
-
-
-# Advanced: Iterators in Ruby are chainable, see if you can use .each_with_index in addition to .collect to solve this one in an elegant way. What happens if you write:
-
-# [1,2].each_with_index.collect{|element, index| }
 
