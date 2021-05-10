@@ -144,6 +144,10 @@ def sum_array(array)
   array.sum
 end
 
+
+# Advanced: Try using the .inject method here
+
+
 def sum_array(array)
   array.inject {|sum, number| sum + number}
 end
@@ -161,17 +165,6 @@ def add_s(array)
     end 
   end
 end
-
-
-
-array = ["hand","feet", "knee", "table"] 
-
-p add_s(array)
-
-
-
-
-# Advanced: Try using the .inject method here
 
 
 
